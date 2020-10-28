@@ -70,7 +70,7 @@ int main(int argc, char* argv[]) {
 	}
 
 	FILE* fp = NULL;
-	fopen_s(&fp, "GlobalHool.dll", "wb+");
+	fopen_s(&fp, "NotepadHook.dll", "wb+");
 	fwrite(lpVoid, sizeof(char), dwSize, fp);
 	fclose(fp);
 
