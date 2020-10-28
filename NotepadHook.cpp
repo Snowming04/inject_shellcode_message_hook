@@ -1,6 +1,6 @@
-// dllmain.cpp : 定义 DLL 应用程序的入口点。
+// NotepadHook.cpp : 定义 DLL 应用程序的入口点。
+//需要被编译为 x64
 
-#include "pch.h"
 #include <Windows.h>
 #include <stdio.h>
 #include <tlhelp32.h>
