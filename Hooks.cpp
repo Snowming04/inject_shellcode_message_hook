@@ -6,7 +6,7 @@ typedef BOOL(*UnHook)();
 
 
 BOOL GlobalHook(BOOL isSet) {
-	HMODULE hModule = LoadLibrary(L"GlobalHool.dll");
+	HMODULE hModule = LoadLibrary(L"NotepadHook.dll");
 	if (!hModule)
 	{
 		printf("LoadLibrary Error:%d", GetLastError());
