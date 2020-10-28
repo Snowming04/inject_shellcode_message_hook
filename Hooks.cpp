@@ -1,3 +1,4 @@
+//编译为64位
 #include <Windows.h>
 #include <stdio.h>
 
